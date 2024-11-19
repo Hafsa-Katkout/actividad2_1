@@ -40,13 +40,13 @@ Primero, confirmemos que todos los elementos básicos están instalados en nuest
     ```
     ruby -v
     ```
-    ![hrweft](/images/1.jpg)
+    ![hrweft](images/1.jpg)
 
 2. Comprobamos que **RubyGems** (el gestor de paquetes de Ruby) esté disponible para instalar librerías adicionales:
     ```
    gem -v
     ```
-    ![hrweft](/images/2.jpg)
+    ![hrweft](images/2.jpg)
 
 3. Aseguramos que **GCC** y **Make** están presentes, ya que ayudan a compilar e instalar los paquetes de Ruby necesarios:
    ```
@@ -104,15 +104,15 @@ Ahora que tenemos ***Jekyll listo***, vamos a crear un nuevo proyecto. ***El tem
         mkdir myblog
         cd myblog
         ```
-        ![hrweft](/images/3.jpg)
+        ![hrweft](images/3.jpg)
 
    2. Generamos un nuevo proyecto de Jekyll en esta carpeta, lo que creará automáticamente la estructura de archivos necesaria:
         ```
         jekyll new .
         ```
-        ![hrweft](/images/4.jpg)
+        ![hrweft](images/4.jpg)
 
-        ![hrweft](/images/6.jpg)
+        ![hrweft](images/6.jpg)
 
    ---
    ---
@@ -135,7 +135,7 @@ Ahora que tenemos ***Jekyll listo***, vamos a crear un nuevo proyecto. ***El tem
 
     **Url**: https://Hafsa-Katkout.github.io/myblog (URL de nuestro sitio en GitHub)
 
-    ![hrweft](/images/5.jpg)
+    ![hrweft](images/5.jpg)
 
 ---
 ---
@@ -150,13 +150,13 @@ Antes de publicarlo, probaremos el sitio localmente para verificar que todo est�
    ```
     bundle exec jekyll serve --host 'ip del host'
    ```
-    ![alt text](/images/7.jpg)
+    ![alt text](images/7.jpg)
 
    > Este comando construye el sitio y lo sirve en un servidor local, facilitando la vista previa.
 
 2. Accedemos a http://10.0.22.201:4000 en el navegador para ver el sitio en funcionamiento:
    
-   ![alt text](/images/8.jpg)
+   ![alt text](images/8.jpg)
 
 ---
 ---
@@ -171,13 +171,13 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
 1. Editar **index.markdown**
    - Añadimos un mensaje de bienvenida o un texto introductorio en la página principal del sitio.
 
-   ![alt text](/images/26.jpg)
+   ![alt text](images/26.jpg)
 
 2. Modificar **about.markdown**
    
    - Personalizamos about.markdown con una descripción sobre nosotros o el propósito del blog.
 
-   ![alt text](/images/27.jpg)
+   ![alt text](images/27.jpg)
 
    ---
    ---
@@ -188,7 +188,7 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
    
    Creamos un archivo llamado **mi-pagina.md** en la carpeta principal del proyecto y le agregamos un contenido así :
 
-   ![alt text](/images/25.jpg)
+   ![alt text](images/25.jpg)
 
    > Esto crea una nueva página accesible desde la URL /mi-pagina.
 
@@ -197,15 +197,15 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
    En la carpeta _posts, creamos al menos tres publicaciones siguiendo el formato AAAA-MM-DD-titulo.md para que se organicen cronológicamente. Ejemplos:
    - Post 1 sobre 'ASIR ':
 
-   ![alt text](/images/13.jpg)
+   ![alt text](images/13.jpg)
 
    - Post 2 sobre 'DAM':
 
-    ![alt text](/images/14.jpg)
+    ![alt text](images/14.jpg)
 
    - Post 3 sobre 'DAW':
     
-    ![alt text](/images/15.jpg)
+    ![alt text](images/15.jpg)
 
 3. **Actualizamos** el sitio :  
    ```
@@ -213,8 +213,8 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
    ```
 4. **Comprobamos** que todo esta bien mientras entramos accedemos al sitio desde el navegador :
    
-   ![alt text](/images/24.jpg)
-   ![alt text](/images/22.jpg)
+   ![alt text](images/24.jpg)
+   ![alt text](images/22.jpg)
 
 ---
 ---
@@ -228,7 +228,7 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
    
 2. creamos la rama **gh-pages** :
    
-   ![alt text](/images/19.jpg)
+   ![alt text](images/19.jpg)
 
 3. Vinculamos nuestro proyecto local con el repositorio remoto y subimos el código :
    
@@ -236,21 +236,21 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
     git init
     git remote add origin https://github.com/tuusuario/myblog.git
    ```
-    ![alt text](/images/16.jpg)
+    ![alt text](images/16.jpg)
 
     ```
     git add .
     git commit -m "..."
     ```
-    ![alt text](/images/17.jpg)
+    ![alt text](images/17.jpg)
 
     ```
     git push --set-upstream origin gh-pages
     ```
 
-    ![alt text](/images/18.jpg)
+    ![alt text](images/18.jpg)
 
-    ![alt text](/images/20.jpg)
+    ![alt text](images/20.jpg)
 
     ---
     ---
@@ -259,28 +259,28 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
 
 Abrimos el enlace que GitHub proporciona para nuestro sitio (por ejemplo, https://Hafsa-Katkout.github.io/myblog) y comprobamos que el sitio está en línea y funcional.
 
-![alt text](/images/23.jpg)
+![alt text](images/23.jpg)
 
 # Comprobaciones
 
-![alt text](/images/24.jpg)
+![alt text](images/24.jpg)
 
 - **Comprobamos el post Asir :**
 
-![alt text](/images/28.jpg)
+![alt text](images/28.jpg)
 
 - **Comprobamos el post DAW :**
 
-![alt text](/images/29.jpg)
+![alt text](images/29.jpg)
 
 - **Comprobamos el post DAM:**
 
-![alt text](/images/30.jpg)
+![alt text](images/30.jpg)
 
 - **Comprobamos la pagina mi-pagina :**
 
-![alt text](/images/31.jpg)
+![alt text](images/31.jpg)
 
 - **Comprobamos los cambios en about.md :**
 
-![alt text](/images/32.jpg)
+![alt text](images/32.jpg)
