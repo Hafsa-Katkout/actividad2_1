@@ -18,7 +18,7 @@ Este proyecto documenta la creación y despliegue de sitios web estáticos con *
 
 4. **Ejercicio 4: Tema Personalizado en Cloudflare**  
    Configuración y despliegue de un tema personalizado en Cloudflare Pages.  
-   [link al sitio con el tema elegido por tí y desplegado en CLOUDFARE](https://agency-hafsa-katkout.pages.dev/)  
+   [link al sitio con el tema agency y desplegado en CLOUDFARE](https://agency-hafsa-katkout.pages.dev/)  
 
 ## Conclusión  
 Este proyecto demuestra cómo personalizar y desplegar sitios web con Jekyll en plataformas versátiles.  
