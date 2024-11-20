@@ -1,4 +1,3 @@
-
 # Desplegar el Tema de Jekyll "Minima" en GitHub Pages
 
 # Índice
@@ -16,8 +15,9 @@
   - [Paso 4.1: Modificar Páginas Predeterminadas](#paso-41-modificar-páginas-predeterminadas)
   - [Paso 4.2: Crear Nuevas Páginas y Publicaciones](#paso-42-crear-nuevas-páginas-y-publicaciones)
 - [Publicar el Sitio en GitHub Pages](#publicar-el-sitio-en-github-pages)
-  - [Paso 5.1: Crear un Repositorio en GitHub,y Configurar GitHub Pages en el Repositorio:](#paso-51-crear-un-repositorio-en-githuby-configurar-github-pages-en-el-repositorio)
-  - [Paso 5.2: Verificar la Publicación](#paso-52-verificar-la-publicación)
+  - [Paso 5.1: Crear un Repositorio en GitHub:](#paso-51-crear-un-repositorio-en-github)
+  - [Paso 5.2: Configurar GitHub Pages en el Repositorio :](#paso-52-configurar-github-pages-en-el-repositorio-)
+  - [Paso 5.3 : Verificamos el despliegue:](#paso-53--verificamos-el-despliegue)
 - [Comprobaciones](#comprobaciones)
 
 # Introducción
@@ -222,7 +222,7 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
 
 # Publicar el Sitio en GitHub Pages
 
-## Paso 5.1: Crear un Repositorio en GitHub,y Configurar GitHub Pages en el Repositorio:
+## Paso 5.1: Crear un Repositorio en GitHub:
 
 1. Creamos un **nuevo repositorio** en GitHub llamado **myblog**.
    
@@ -255,11 +255,19 @@ A continuación, vamos a **modificar** algunas páginas predeterminadas y **crea
     ---
     ---
 
-## Paso 5.2: Verificar la Publicación
+## Paso 5.2: Configurar GitHub Pages en el Repositorio :
 
-Abrimos el enlace que GitHub proporciona para nuestro sitio (por ejemplo, https://Hafsa-Katkout.github.io/myblog) y comprobamos que el sitio está en línea y funcional.
+   - Vamos a nuestro repositorio en GitHub.
+   - Navegamos a Settings > Pages.
+   - En Branch, seleccionamos gh-pages y hacemos clic en Save.
 
 ![alt text](images/23.jpg)
+
+## Paso 5.3 : Verificamos el despliegue:
+
+Abrimos el enlace que GitHub proporciona para nuestro sitio (por ejemplo, https://Hafsa-Katkout.github.io/myblog) y comprobamos que el sitio está en línea y funcional:
+
+![alt text](images/33.jpg)
 
 # Comprobaciones
 
@@ -267,20 +275,20 @@ Abrimos el enlace que GitHub proporciona para nuestro sitio (por ejemplo, https:
 
 - **Comprobamos el post Asir :**
 
-![alt text](images/28.jpg)
+![alt text](images/34.jpg)
 
 - **Comprobamos el post DAW :**
 
-![alt text](images/29.jpg)
+![alt text](images/35.jpg)
 
 - **Comprobamos el post DAM:**
 
-![alt text](images/30.jpg)
+![alt text](images/36.jpg)
 
 - **Comprobamos la pagina mi-pagina :**
 
-![alt text](images/31.jpg)
+![alt text](images/37.jpg)
 
 - **Comprobamos los cambios en about.md :**
 
-![alt text](images/32.jpg)
+![alt text](images/38.jpg)
